@@ -11,12 +11,12 @@ body{
 }
 
 img {
+     width: 100%;
 
-    width: 100%;
 }
 
 strong {
-    color: var(--text-deadline);
+    color: var(--text-headline);
     text-transform: uppercase;
 }
 
@@ -41,6 +41,7 @@ h4 {
 
 p {
     color: var(--text-secondery);
+    
 }
 
 ul {
@@ -50,5 +51,7 @@ ul {
     li::marker{
         color: var(--text-secondery);
     }
+
+   
 }
 
